@@ -16,7 +16,7 @@ ORB (Oriented FAST and Rotated BRIEF) is a fast and efficient algorithm used in 
 3. **Orientation Compensation:** ORB adds orientation compensation to BRIEF, making it more robust to image rotation.
 
 ## Example Output:
-![ORB Keypoints Example]([./orb_algorithm.png])
+![ORB Keypoints Example](https://github.com/omerfaruksubasi/orb_algorithm/raw/main/orb_algorithm.png)
 
 This image shows how the ORB algorithm detects keypoints in an example image, with each keypoint marked as a circle.
 
