@@ -3,9 +3,9 @@ import cv2 as cv
 import matplotlib.pyplot as plt
  
 # Load the training image (grayscale)
-img1 = cv.imread('bayrak.jpg', cv.IMREAD_GRAYSCALE)  # training image
+img1 = cv.imread('table.jpg', cv.IMREAD_GRAYSCALE)  # training image
 # Load the target image (grayscale)
-img2 = cv.imread('bayraklar.jpg', cv.IMREAD_GRAYSCALE)  # general image with multiple objects
+img2 = cv.imread('pic.jpg', cv.IMREAD_GRAYSCALE)  # general image with multiple objects
  
 # Initialize the ORB detector
 orb = cv.ORB_create()
