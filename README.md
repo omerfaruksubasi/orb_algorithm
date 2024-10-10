@@ -18,7 +18,9 @@ ORB (Oriented FAST and Rotated BRIEF) is a fast and efficient algorithm used in 
 ## Example Output:
 ![ORB Keypoints Example](https://github.com/omerfaruksubasi/orb_algorithm/raw/main/orb_algorithm.png)
 
-This image shows how the ORB algorithm detects keypoints in an example image, with each keypoint marked as a circle.
+The image below demonstrates the result of applying the ORB (Oriented FAST and Rotated BRIEF) algorithm for feature detection and matching. ORB is used to detect keypoints and compute descriptors between two images.
+
+In this example, keypoints have been detected in both images (left and right), and corresponding points have been matched. The lines drawn between the two images represent the matched keypoints. Each line connects a keypoint in the first image (on the left) to its corresponding keypoint in the second image (on the right), demonstrating how ORB can match similar features between two images.
 
 ## Why Use ORB?
 ORB is ideal for situations where speed is crucial, such as mobile applications, real-time object tracking, or when working with large datasets of images. It's a very efficient algorithm that balances accuracy with computational performance.
